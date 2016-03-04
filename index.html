@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vue test</title>
+  </head>
+
+  <body>
+    <material>
+      <navbar id="navbar">
+        <span slot="brand">Brand</span>
+        <ul slot="nav" class="nav navbar-nav">
+          <navbar-dropdown>
+            <span slot="title">Dropdown</span>
+            <li slot="link"><a href="#">Link 1</a></li>
+            <li slot="link"><a href="#">Link 2</a></li>
+          </navbar-dropdown>
+        </ul>
+      </navbar>
+    </material>
+  </body>
+</html>
